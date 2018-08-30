@@ -1,0 +1,16 @@
+[CommandRun]
+Class="Function"
+Prototype="void CommandRun(int comSelect, char *UartTxBuf);"
+
+[CommandStop]
+Class="Function"
+Prototype="void CommandStop(int comSelect, char *UartTxBuf);"
+
+[CommandConfig]
+Class="Function"
+Prototype="void CommandConfig(int comSelect, char *UartTxBuf);"
+
+[CommandCalibrate]
+Class="Function"
+Prototype="void CommandCalibrate(int comSelect, char *UartTxBuf);"
+
