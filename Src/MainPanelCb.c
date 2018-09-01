@@ -30,15 +30,15 @@
 #include "MainPanel.h"
 //==============================================================================
 // Constants
-#define TWO_TERMINAL 1
-#define EXP_I_V 2
-#define EXP_V_I 3
-#define EXP_I_T 4
-#define EXP_V_T 5
-#define EXP_R_T 6
-#define FOUR_TERMINAL 17
-#define EXP_ID_VDS 18
-#define EXP_ID_VGS 19
+#define TWO_TERMINAL 0
+#define EXP_I_V 1
+#define EXP_V_I 2
+#define EXP_I_T 3
+#define EXP_V_T 4
+#define EXP_R_T 5
+#define FOUR_TERMINAL 16
+#define EXP_ID_VDS 17
+#define EXP_ID_VGS 18
 #define VAL_TEXTBG                        0xF0F0F0L    //未被选中背景色
 #define VAL_TEXTBG_PRESSED                0x065279L    //被选中背景
 //==============================================================================
