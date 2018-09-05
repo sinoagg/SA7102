@@ -1,11 +1,3 @@
-#include "TableData.h"
-
-//#include "Table.h"
-#include <userint.h>
-
-#include "LoadPanel.h"
-#include "table.h"
-
 //==============================================================================
 //
 // Title:		Table.c
@@ -18,6 +10,10 @@
 
 //==============================================================================
 // Include files
+#include "TableData.h"
+#include <userint.h>
+#include "LoadPanel.h"
+#include "table.h"
 //==============================================================================
 // Constants
 

@@ -17,10 +17,10 @@ Project 0001 FolderId 5 Collapsed = True
 Project 0001 Folder Instrument Files Collapsed = True
 Project 0001 FolderId 6 Collapsed = True
 Drag Bar Left = 340
-Window Top = 30
-Window Left = 238
-Window Bottom = 852
-Window Right = 1452
+Window Top = 224
+Window Left = 336
+Window Bottom = 1008
+Window Right = 1534
 Maximized = True
 Maximized Children = True
 Max32 Number Of Errors = 20
@@ -34,7 +34,7 @@ Save Changes Before Compiling = "Always"
 Hide Windows = False
 Break At First Statement = False
 Sort Type = "File Name"
-Number of Opened Files = 4
+Number of Opened Files = 1
 Window Confinement Region Enabled = True
 MainColumnWidth = 323
 FileDateColumnWidth = 70
@@ -62,6 +62,36 @@ Disk Date = 3617659663
 In Projects = "1,"
 
 [File 0003]
+Path = "/e/SA7102/UI Files/StretchPanel.uir"
+File Type = "User Interface Resource"
+Disk Date = 3618898974
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Window Height = 427
+Window Width = 718
+Window Z-Order = 1
+
+[File 0004]
+Path = "/e/SA7102/Src/Stretch.c"
+File Type = "CSource"
+Disk Date = 3618960969
+In Projects = "1,"
+Window Top = 272
+Window Left = 138
+Source Window State = "1,67,67,67,42,43,42,0,0,80,0,36,0,0,0,25,6,0,67,52,427,718,1,0,"
+
+[File 0005]
+Path = "/e/SA7102/UI Files/EnvironmentDisp.uir"
+File Type = "User Interface Resource"
+Disk Date = 3618003736
+In Projects = "1,"
+Window Top = 302
+Window Left = 154
+Window Height = 427
+Window Width = 718
+
+[File 0006]
 Path = "/e/SA7102/UI Files/Experiment List.uir"
 File Type = "User Interface Resource"
 Disk Date = 3618616362
@@ -70,9 +100,38 @@ Window Top = 32
 Window Left = 10
 Window Height = 427
 Window Width = 718
-Window Z-Order = 1
 
-[File 0004]
+[File 0007]
+Path = "/e/SA7102/UI Files/GraphDisp.uir"
+File Type = "User Interface Resource"
+Disk Date = 3618013807
+In Projects = "1,"
+
+[File 0008]
+Path = "/e/SA7102/UI Files/I-T Configuration.uir"
+File Type = "User Interface Resource"
+Disk Date = 3617659663
+In Projects = "1,"
+
+[File 0009]
+Path = "/e/SA7102/UI Files/I-V Configuration.uir"
+File Type = "User Interface Resource"
+Disk Date = 3617659663
+In Projects = "1,"
+
+[File 0010]
+Path = "/e/SA7102/UI Files/Id-Vds Configuration.uir"
+File Type = "User Interface Resource"
+Disk Date = 3617845592
+In Projects = "1,"
+
+[File 0011]
+Path = "/e/SA7102/UI Files/Id-Vgs Configuration.uir"
+File Type = "User Interface Resource"
+Disk Date = 3617755234
+In Projects = "1,"
+
+[File 0012]
 Path = "/e/SA7102/UI Files/MainPanel.uir"
 File Type = "User Interface Resource"
 Disk Date = 3618616193
@@ -81,91 +140,62 @@ Window Top = 32
 Window Left = 10
 Window Height = 427
 Window Width = 718
-Window Z-Order = 4
 
-[File 0005]
-Path = "/e/SA7102/UI Files/EnvironmentDisp.uir"
-File Type = "User Interface Resource"
-Disk Date = 3618003736
-In Projects = "1,"
-
-[File 0006]
-Path = "/e/SA7102/UI Files/GraphDisp.uir"
-File Type = "User Interface Resource"
-Disk Date = 3618013807
-In Projects = "1,"
-
-[File 0007]
-Path = "/e/SA7102/UI Files/I-T Configuration.uir"
-File Type = "User Interface Resource"
-Disk Date = 3617659663
-In Projects = "1,"
-
-[File 0008]
-Path = "/e/SA7102/UI Files/I-V Configuration.uir"
-File Type = "User Interface Resource"
-Disk Date = 3617659663
-In Projects = "1,"
-
-[File 0009]
-Path = "/e/SA7102/UI Files/Id-Vds Configuration.uir"
-File Type = "User Interface Resource"
-Disk Date = 3617845592
-In Projects = "1,"
-
-[File 0010]
-Path = "/e/SA7102/UI Files/Id-Vgs Configuration.uir"
-File Type = "User Interface Resource"
-Disk Date = 3617755234
-In Projects = "1,"
-
-[File 0011]
+[File 0013]
 Path = "/e/SA7102/UI Files/ProjectPanel.uir"
 File Type = "User Interface Resource"
-Disk Date = 3617686208
+Disk Date = 3618877633
 In Projects = "1,"
+Window Top = 212
+Window Left = 106
+Window Height = 427
+Window Width = 718
 
-[File 0012]
+[File 0014]
 Path = "/e/SA7102/UI Files/R-T Configuration.uir"
 File Type = "User Interface Resource"
 Disk Date = 3617659663
 In Projects = "1,"
 
-[File 0013]
+[File 0015]
 Path = "/e/SA7102/UI Files/Result Menu.uir"
 File Type = "User Interface Resource"
 Disk Date = 3617659663
 In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Window Height = 427
+Window Width = 718
 
-[File 0014]
+[File 0016]
 Path = "/e/SA7102/UI Files/Sample Analyze.uir"
 File Type = "User Interface Resource"
 Disk Date = 3618014477
 In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Window Height = 427
+Window Width = 718
 
-[File 0015]
+[File 0017]
 Path = "/e/SA7102/UI Files/Sample Configuration.uir"
 File Type = "User Interface Resource"
 Disk Date = 3617659663
 In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Window Height = 427
+Window Width = 718
 
-[File 0016]
-Path = "/e/SA7102/UI Files/SaveData.uir"
-File Type = "User Interface Resource"
-Disk Date = 3617659663
-In Projects = "1,"
-
-[File 0017]
+[File 0018]
 Path = "/e/SA7102/UI Files/SetPanel.uir"
 File Type = "User Interface Resource"
 Disk Date = 3617768331
 In Projects = "1,"
-
-[File 0018]
-Path = "/e/SA7102/UI Files/StretchPanel.uir"
-File Type = "User Interface Resource"
-Disk Date = 3618019008
-In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Window Height = 427
+Window Width = 718
 
 [File 0019]
 Path = "/e/SA7102/UI Files/Table.uir"
@@ -206,9 +236,11 @@ In Projects = "1,"
 [File 0025]
 Path = "/e/SA7102/Src/Environment.c"
 File Type = "CSource"
-Disk Date = 3617957811
+Disk Date = 3618868460
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Top = 212
+Window Left = 106
+Source Window State = "1,14,14,14,0,23,23,0,3,0,0,0,0,0,0,0,0,0,14,0,427,718,1,0,"
 
 [File 0026]
 Path = "/e/SA7102/Src/ExpListPanel.c"
@@ -217,8 +249,7 @@ Disk Date = 3618436987
 In Projects = "1,"
 Window Top = 62
 Window Left = 26
-Window Z-Order = 3
-Source Window State = "1,29,37,37,0,22,22,0,3,80,0,0,0,0,0,25,0,0,29,0,427,718,1,0,"
+Source Window State = "1,29,37,37,0,22,22,0,0,0,0,0,0,0,0,0,0,0,17,39,427,718,1,0,"
 
 [File 0027]
 Path = "/e/SA7102/Src/I_T_Panel.c"
@@ -253,7 +284,9 @@ Path = "/e/SA7102/Src/LoadPanel.c"
 File Type = "CSource"
 Disk Date = 3618006200
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,46,46,46,4,17,17,0,3,0,0,0,0,0,0,0,39,0,46,4,427,718,1,0,"
 
 [File 0032]
 Path = "/e/SA7102/Src/MainPanelCb.c"
@@ -262,15 +295,16 @@ Disk Date = 3618616329
 In Projects = "1,"
 Window Top = 32
 Window Left = 10
-Window Z-Order = 2
-Source Window State = "1,32,40,40,0,21,21,0,0,80,0,0,0,0,0,25,18,0,47,57,427,718,1,0,"
+Source Window State = "1,32,40,40,0,21,21,0,0,0,0,0,0,0,0,0,18,0,47,57,427,718,1,0,"
 
 [File 0033]
 Path = "/e/SA7102/Src/ProjectPanelCB.c"
 File Type = "CSource"
-Disk Date = 3617659663
+Disk Date = 3618877635
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Top = 242
+Window Left = 122
+Source Window State = "1,100,100,100,48,65,65,0,3,0,0,0,0,0,0,0,68,0,100,48,427,718,1,0,"
 
 [File 0034]
 Path = "/e/SA7102/Src/R_T_Panel.c"
@@ -303,9 +337,11 @@ Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 [File 0038]
 Path = "/e/SA7102/Src/table.c"
 File Type = "CSource"
-Disk Date = 3617659663
+Disk Date = 3618868461
 In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Window Top = 182
+Window Left = 90
+Source Window State = "1,59,59,59,5,15,15,0,0,0,0,0,0,0,0,0,0,0,182,0,427,718,1,0,"
 
 [File 0039]
 Path = "/e/SA7102/Src/ToolsPanel.c"
@@ -825,10 +861,7 @@ Disk Date = 3617659663
 In Projects = "1,"
 
 [Tab Order]
-Tab 0001 = "/e/SA7102/UI Files/Experiment List.uir"
-Tab 0002 = "/e/SA7102/UI Files/MainPanel.uir"
-Tab 0003 = "/e/SA7102/Src/MainPanelCb.c"
-Tab 0004 = "/e/SA7102/Src/ExpListPanel.c"
+Tab 0001 = "/e/SA7102/UI Files/StretchPanel.uir"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

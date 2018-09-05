@@ -18,6 +18,7 @@ R_T_Panel.obj
 ResultMenuPanel.obj
 SampleCfgPanel.obj
 SetPanelCB.obj
+Stretch.obj
 table.obj
 Timer.obj
 ToolsPanel.obj

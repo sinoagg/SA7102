@@ -32,6 +32,7 @@
 -in:e:\SA7102\cvibuild.SA7102\Debug\ResultMenuPanel.obj
 -in:e:\SA7102\cvibuild.SA7102\Debug\SampleCfgPanel.obj
 -in:e:\SA7102\cvibuild.SA7102\Debug\SetPanelCB.obj
+-in:e:\SA7102\cvibuild.SA7102\Debug\Stretch.obj
 -in:e:\SA7102\cvibuild.SA7102\Debug\table.obj
 -in:e:\SA7102\cvibuild.SA7102\Debug\Timer.obj
 -in:e:\SA7102\cvibuild.SA7102\Debug\ToolsPanel.obj

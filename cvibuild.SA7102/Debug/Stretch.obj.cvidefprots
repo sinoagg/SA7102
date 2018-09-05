@@ -1,0 +1,12 @@
+[DeleteCallback]
+Class="Function"
+Prototype="int DeleteCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[InsabvCallback]
+Class="Function"
+Prototype="int InsabvCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[InsblwCallback]
+Class="Function"
+Prototype="int InsblwCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

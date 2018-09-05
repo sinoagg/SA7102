@@ -18,6 +18,7 @@ Depends "e:\\SA7102\\cvibuild.SA7102\\Debug\\SA7102.exe" : "e:\\SA7102\\cvibuild
 Depends "e:\\SA7102\\cvibuild.SA7102\\Debug\\SA7102.exe" : "e:\\SA7102\\cvibuild.SA7102\\Debug\\ResultMenuPanel.obj" ;
 Depends "e:\\SA7102\\cvibuild.SA7102\\Debug\\SA7102.exe" : "e:\\SA7102\\cvibuild.SA7102\\Debug\\SampleCfgPanel.obj" ;
 Depends "e:\\SA7102\\cvibuild.SA7102\\Debug\\SA7102.exe" : "e:\\SA7102\\cvibuild.SA7102\\Debug\\SetPanelCB.obj" ;
+Depends "e:\\SA7102\\cvibuild.SA7102\\Debug\\SA7102.exe" : "e:\\SA7102\\cvibuild.SA7102\\Debug\\Stretch.obj" ;
 Depends "e:\\SA7102\\cvibuild.SA7102\\Debug\\SA7102.exe" : "e:\\SA7102\\cvibuild.SA7102\\Debug\\table.obj" ;
 Depends "e:\\SA7102\\cvibuild.SA7102\\Debug\\SA7102.exe" : "e:\\SA7102\\cvibuild.SA7102\\Debug\\Timer.obj" ;
 Depends "e:\\SA7102\\cvibuild.SA7102\\Debug\\SA7102.exe" : "e:\\SA7102\\cvibuild.SA7102\\Debug\\ToolsPanel.obj" ;
