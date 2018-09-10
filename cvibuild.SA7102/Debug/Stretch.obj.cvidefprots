@@ -1,3 +1,7 @@
+[ModeCallback]
+Class="Function"
+Prototype="int ModeCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
 [DeleteCallback]
 Class="Function"
 Prototype="int DeleteCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
