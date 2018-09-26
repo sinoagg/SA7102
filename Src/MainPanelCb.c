@@ -63,7 +63,6 @@ char Table_title_IV[11][20] ={"Current(A)","Voltage(mV)","Current(A)","Voltage(m
 char Table_title_VI[11][20] ={"Voltage(mV)","Current(A)","Voltage(mV)","Current(A)"}; 
 char Table_title_IT[11][20] ={"Time(S)","Current(A)","Time(S)","Current(A)"};
 char Table_title_RT[11][20] ={"Time(S)","Resistance(Ω)","Time(S)","Resistance(Ω)"};
-
 //==============================================================================
 // Global functions
 static void DispRuntime(int display)
@@ -186,8 +185,7 @@ void Runkeyaction()//运行按钮按下后产生的一系列动作
     SetCtrlAttribute (mainPanel, MAIN_PANEL_SAVE, ATTR_DIMMED,1);        //禁用 保存按钮
 	SetCtrlAttribute (mainPanel, MAIN_PANEL_SETTINGS, ATTR_DIMMED,1);        //禁用 保存按钮  
 	
-	/*SetPanelPos(resultPanel, 105, 305);  
-    SetPanelSize(resultPanel, 65, 1293);      
+	/*SetPanelPos(resultPanel, 105, 305);     
 	DisplayPanel(resultPanel);*/  
 
 	SetPanelPos(graphDispPanel, 105, 305);
@@ -465,6 +463,7 @@ int CVICALLBACK SelectCallback (int panel, int control, int event,
 }
 
 
+
 //===================================================
 //   Analyze_Callback
 
@@ -474,7 +473,6 @@ int CVICALLBACK AnalyzeCallback (int panel, int control, int event,
 	switch (event)
 	{
 		case EVENT_LEFT_CLICK_UP:
-			
 			SetPanelPos(graphDispPanel, 105, 305);
 			DisplayPanel(graphDispPanel);
 		

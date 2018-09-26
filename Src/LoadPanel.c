@@ -194,7 +194,6 @@ int LoadInitPanel (void)
 	
 	DisplayPanel (mainPanel);
 	SetPanelPos(expListPanel, 105, 3);  //º”‘ÿ√Ê∞ÂŒª÷√ (,top,left)
-	//SetPanelSize(expListPanel, 900, 300);
 	DisplayPanel(expListPanel);
 
 	SetPanelPos(TwoTerminalPanel, 105, 305);		

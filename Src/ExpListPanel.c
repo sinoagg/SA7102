@@ -79,35 +79,13 @@ static void ExpList(int display)
 	HidePanel(hAdvanceSamplePanel);  
 }
 
-//int CVICALLBACK ElecTestCallback (int panel, int control, int event,
-//							 void *callbackData, int eventData1, int eventData2)
-//{
-//	switch (event)
-//	{
 
-//		case EVENT_LEFT_CLICK_UP:
-//			
-//			GetCtrlVal (expListPanel, EXP_LIST_ELECTEST, &elecVal);
-//			//GetCtrlVal (expListPanel, EXP_LIST_STRAIN, &strainVal);
-//			if(elecVal==1)
-//			{	
-//				SetCtrlAttribute (expListPanel, EXP_LIST_EXPLIST, ATTR_VISIBLE, 1);
-//				
-//			}
-//			else
-//			{
-//				SetCtrlAttribute (expListPanel, EXP_LIST_EXPLIST, ATTR_VISIBLE, 0);
-//			}
-//			break;
-
-//	}
-//	return 0;
-//}
 
 int CVICALLBACK ExpListCallback (int panel, int control, int event,
 								 void *callbackData, int eventData1, int eventData2)
 {
 	int index;
+	int check;
 	switch (event)
 	{
 		case EVENT_LEFT_CLICK_UP:
@@ -124,6 +102,9 @@ int CVICALLBACK ExpListCallback (int panel, int control, int event,
 			DisplayImageFile (mainPanel, MAIN_PANEL_ANALYZE, "Resource\\Analyze.ico");
 			
 			GetCtrlIndex(expListPanel, EXP_LIST_EXPLIST, &index);
+			/*IsListItemChecked (expListPanel, EXP_LIST_EXPLIST, index, &check);
+			CheckListItem (expListPanel, EXP_LIST_EXPLIST, index, !check);*/
+			
 			if(index==TWO_TERMINAL)
 			{
 				SetPanelPos(TwoTerminalPanel, 105, 305);		
@@ -237,11 +218,9 @@ int CVICALLBACK StrainListCallback (int panel, int control, int event,
 			GetCtrlIndex(expListPanel, EXP_LIST_STRAINLIST, &index);
 			if(index==0)
 			{
-				SetPanelPos(hstretchPanel, 105, 305);		
-				SetPanelSize(hstretchPanel, 900, 1593);																								
+				SetPanelPos(hstretchPanel, 105, 305);																							
 				DisplayPanel(hstretchPanel);
 			}	
-
 			break;
 	}
 	return 0;

@@ -34,8 +34,8 @@ int main (int argc, char *argv[])
 	comSelect = 5;
 	CGS_comSelect = 1;
 	LoadInitPanel(); 
-	CheckPortStatus(comSelect, 20, ComCallback);
-	CheckPortStatus(CGS_comSelect, 14, ComCallbackCGS);
+	/*CheckPortStatus(comSelect, 20, ComCallback);
+	CheckPortStatus(CGS_comSelect, 14, ComCallbackCGS);*/
 	RunUserInterface ();
 	DiscardPanel (mainPanel);
 	return 0;
